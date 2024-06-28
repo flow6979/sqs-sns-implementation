@@ -30,3 +30,7 @@ you can try using localstack (https://www.localstack.cloud) for simulating SNS a
      `curl http://localhost:5000/read/broadcast`
 
      ![curl Results](https://github.com/flow6979/sqs-sns-implementation/blob/main/curlResults.png)
+
+## Application flow - 
+
+![flow](https://github.com/flow6979/sqs-sns-implementation/blob/main/flow.png)
