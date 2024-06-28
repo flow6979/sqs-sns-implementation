@@ -19,7 +19,7 @@ you can try using localstack (https://www.localstack.cloud) for simulating SNS a
 
 1. start localstack
 2. setup AWS cli with LocalStack
-  - ![aws configurations](https://github.com/flow6979/sqs-sns-implementation/blob/main/awsConfigure.png)
+     ![aws configurations](https://github.com/flow6979/sqs-sns-implementation/blob/main/awsConfigure.png)
 4. start app server with `python3 main.py`
 5. Test the code wit following curl -
    - Publish a broadcast message:
@@ -28,3 +28,5 @@ you can try using localstack (https://www.localstack.cloud) for simulating SNS a
    - Read messages from the broadcast queue:
       </br>
      `curl http://localhost:5000/read/broadcast`
+
+     ![curl Results](https://github.com/flow6979/sqs-sns-implementation/blob/main/curlResults.png)
