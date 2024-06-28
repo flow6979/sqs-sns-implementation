@@ -12,4 +12,4 @@ following structure shown in diagram.
 
 you can try using localstack (https://www.localstack.cloud) for simulating SNS and SQS locall
 
-![design image]()
+![design image](https://github.com/flow6979/sqs-sns-implementation/blob/main/design.png)
