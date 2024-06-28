@@ -19,8 +19,9 @@ you can try using localstack (https://www.localstack.cloud) for simulating SNS a
 
 1. start localstack
 2. setup AWS cli with LocalStack
-3. start app server with `python3 main.py`
-4. Test the code wit following curl -
+  - ![aws configurations](https://github.com/flow6979/sqs-sns-implementation/blob/main/awsConfigure.png)
+4. start app server with `python3 main.py`
+5. Test the code wit following curl -
    - Publish a broadcast message:
       </br>
      `curl -X POST -H "Content-Type: application/json" -d '{"event_type": "broadcast", "message": "This is a broadcast message"}' http://localhost:5000/publish`
