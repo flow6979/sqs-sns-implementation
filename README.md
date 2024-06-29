@@ -23,7 +23,7 @@ you can try using localstack (https://www.localstack.cloud) for simulating SNS a
 4. start app server with `python3 main.py`
 5. Test the code wit following curl -
 
-  Copy curl from here - [url](https://github.com/flow6979/sqs-sns-implementation/blob/main/Testing%20sns-sqs.pdf)
+  Copy curl from here - [doc url](https://docs.google.com/document/d/1QFIxUMpJYaDGxsjEDK_fWagJu5huBdS2mo8wcO_TmSA/edit?usp=sharing)
 
 - Case 1: Broadcast type:
    - Publish a broadcast message:
