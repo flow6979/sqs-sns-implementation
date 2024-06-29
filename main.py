@@ -47,7 +47,7 @@ def publish_message():
     else:
         return jsonify({'error': 'Invalid event type'}), 400
 
-    return jsonify({'message': 'Message published successfully'}), 200
+    return jsonify({'event_type': event_type, 'message': 'Message published successfully'}), 200
 
 
 # API endpoints to read messages from the SQS queues:
